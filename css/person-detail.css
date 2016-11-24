@@ -1,0 +1,134 @@
+
+.active {
+	color: #FD831B;
+}
+
+.content {
+	width: 1000px;
+	margin: 30px auto;
+}
+
+.detail-left {
+	width: 720px;
+	background-color: #FAFAFA;
+	padding:20px;
+}
+.detail-right {
+	width: 250px;
+	border: 1px solid #e1e1e1;
+}
+.detail-left .con1 {
+	border-bottom: 1px solid #e1e1e1;
+	padding:10px 0 20px 0;
+}
+.detail-left h3{
+	height: 80px;
+	padding: 10px 0;
+}
+.detail-left h3 img {
+	float: left;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+}
+.detail-left h3 img.tu {
+	width: 30px;
+	height: 30px;
+	margin-right: 20px;
+	margin-top: 25px;
+	cursor: pointer;
+}
+.detail-left h3 p {
+	float: left;
+	margin: 20px 200px 0 20px;
+	font-size: 26px;
+	color: #666;
+}
+.con1 p {
+	font-size: 14px;
+	margin-top: 10px;	
+	color: #888;
+}
+.xinxi p {
+	margin-right: 30px;
+}
+.time {
+	font-size: 14px;
+	color: #d6d6d6;
+}
+.salary {
+	color: #999;
+}
+.salary span {
+	font-size: 18px;
+	color: #FD470C;
+}
+.xinxi p {
+	display: inline-block;
+}
+.con2 h3 {
+	position: relative;
+	height: 60px;
+	font-size: 22px;
+	color: #666;
+	margin-top: 10px;
+	padding-left: 20px;
+}
+.con2 h3:before {
+	position: absolute;
+	left: 0;
+	top: 14px;
+	content: "";
+	display: block;
+	width: 4px;
+	height: 24px;
+	background-color: #00a0e9;
+}
+.con2 .text {
+	line-height: 30px;
+	color: #999;
+}
+
+.zhinan {
+	padding-bottom: 20px;
+}
+.zhinan h3 {
+	position: relative;
+	margin-bottom: 10px;
+	height: 40px;
+	color: #fff;
+	line-height: 40px;
+	background-color: #00a0e9;
+	padding-left: 20px;
+}
+.zhinan h3:after {
+	position: absolute;
+	top: 16px;
+	right: 10px;
+	display:inline-block;
+	content: "";
+	width: 8px;
+    height: 8px;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;	
+    transform: rotate(45deg);
+}
+.zhinan p{
+	line-height: 30px;
+	color: #999;
+	padding-left: 20px;
+}
+.detail-right .tu1 {
+	width: 100%;
+	height: 442px;
+	background-image: url(../imgs/tu1.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.detail-right .sort {
+	border-top: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+}
+.detail-right .sort img {
+	margin: 20px 0 20px 10px;
+}
